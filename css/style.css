@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    position: relative;
+    background: #6d6d6d;
+   
+}
+.header_logo{
+    background: #000;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.header_top{
+    float: right;
+}
+.header_nav {
+    background: #ff9797;
+    width: 50%;
+    float: right;
+}
+.header_nav ul{
+    display: inline-block;
+    
+}
