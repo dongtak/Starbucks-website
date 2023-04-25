@@ -1,0 +1,60 @@
+<style>
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-header {
+  background-color: #eee;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.accordion-checkbox {
+  display: none;
+}
+
+.accordion-checkbox:checked + .accordion-header {
+  background-color: #ccc;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-checkbox:checked + .accordion-header + .accordion-content {
+  max-height: 500px;
+  transition: max-height 1s ease-in;
+}
+
+
+</style>
+<div class="accordion">
+    <input type="checkbox" id="accordion-1" name="accordion-checkbox" class="accordion-checkbox">
+    <div class="accordion-header">
+      <label for="accordion-1">섹션 1</label>
+    </div>
+    <div class="accordion-content">
+      <p>섹션 1 내용입니다.</p>
+    </div>
+  
+    <input type="checkbox" id="accordion-2" name="accordion-checkbox" class="accordion-checkbox">
+    <div class="accordion-header">
+      <label for="accordion-2">섹션 2</label>
+    </div>
+    <div class="accordion-content">
+      <p>섹션 2 내용입니다.</p>
+    </div>
+  
+    <input type="checkbox" id="accordion-3" name="accordion-checkbox" class="accordion-checkbox">
+    <div class="accordion-header">
+      <label for="accordion-3">섹션 3</label>
+    </div>
+    <div class="accordion-content">
+      <p>섹션 3 내용입니다.</p>
+    </div>
+  </div>
+  

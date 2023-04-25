@@ -19,15 +19,16 @@ header{
 .header_wrap{
     width: 960px;
     height: 100%;
-    background: #ff0000;
+    /* background: #ff0000; */
     margin: 0 auto;
     position: relative;
 }
 .header_logo {
-    background: #000;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+    background-image:url("../images/starbucks_logo.png");
+    background-size: cover;
+    width: 4rem;
+    height:4rem;
+    margin: 2rem auto;
     float: left;
 }
 .header_top {
