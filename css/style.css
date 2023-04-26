@@ -79,7 +79,22 @@ header{
 .main_belt{
     background: #707070;
     width: 100%;
-    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.belt_message{
+    background: #000;
+    height: 60px;
+    width: 50%;
+}
+.belt_accordian{
+    background: #ff5454;
+    height: 60px;
+    width: 50%;
+}
+.accordian{
+    height: 600px;
+    width: 100%;
 }
 
 .coffee_sub,.menu_sub,.store_sub,
